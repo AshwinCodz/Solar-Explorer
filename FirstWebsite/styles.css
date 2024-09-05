@@ -1,0 +1,148 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    width: 150px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    color: #f4a261;
+}
+
+.banner {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
+.banner h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 24px;
+}
+
+.services, .about-us, .contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.services h2, .about-us h2, .contact h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.service-box {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #fff;
+}
+
+.service-box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.service-box h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.service-box p {
+    font-size: 16px;
+    color: #777;
+}
+
+.about-us img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact form label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.contact form input, .contact form textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form button {
+    padding: 15px;
+    font-size: 18px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background-color: #f4a261;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
